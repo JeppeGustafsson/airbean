@@ -1,0 +1,29 @@
+.MenuPage {
+    width: 100%;
+    height: 100%;
+    background-color: #F3E4E1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.ButtonWrapper {
+    padding: 0 1.8rem 1.8rem 1.8rem;
+}
+
+.TopDecor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.BottomDecor {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

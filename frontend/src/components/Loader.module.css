@@ -1,0 +1,24 @@
+.Loader {
+    width: 100%;
+    height: 100%;
+    background-color: #38846D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.LeftDecor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.RightDecor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}

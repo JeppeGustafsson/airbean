@@ -1,0 +1,79 @@
+body, html {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica;
+  user-select: none;
+}
+
+.App {
+  width: 375px;
+  height: 720px;
+  box-shadow: 0 0 10px 3px rgba(0,0,0,0.2);
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.App > div {
+  animation: fade 0.3s ease forwards;
+  z-index: 1;
+}
+
+@keyframes fade {
+  0% {
+   transform: translateX(375px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+h1 {
+  margin-top: 2.2rem;
+  line-height: 32px;
+}
+
+h3 {
+  margin: 5px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+p {
+  font-style: normal;
+  font-size: 13px;
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #2b2b2b;
+  font-style: normal;
+  font-size: 14px;
+}
+
+/* SCROLLBAR */
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: whitesmoke #2b2b2b;
+}
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  background: whitesmoke;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #2b2b2b;
+}
